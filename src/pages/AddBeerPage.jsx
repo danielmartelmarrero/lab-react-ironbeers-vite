@@ -29,7 +29,7 @@ function AddBeerPage() {
 
     return (
         <div>
-            <form onSubmit={handleSubmit}>
+            <form className="createBeerForm" onSubmit={handleSubmit}>
                 <label >
                     Name:
                     <input type="text" onChange={(e)=>{setName(e.target.value)}} />
@@ -65,7 +65,7 @@ function AddBeerPage() {
                     <input type="text" onChange={(e)=>{setContributor(e.target.value)}}/>
                 </label>
 
-                <button type="submit">Add Beer</button>
+                <button id="submitBeer" type="submit">Add Beer</button>
             </form>
         </div>
     )

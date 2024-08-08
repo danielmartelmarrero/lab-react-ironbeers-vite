@@ -2,23 +2,22 @@ nav{
     display: flex;
     justify-content: center;
     font-size: 2em;
+    margin: 0 20%;
     background-color: rgb(61,196,252);
 }
 nav a{
     color:  white;
 }
 .homePageDiv{
-    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 5%;
 }
 .homePageDiv img{
     width: 1000px;
     height: 500px;
-}
-.beerDiv{
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-    margin: 10px 0;
+    border-radius: 4px;
 }
 .sectionDiv{
     font-size: 22px;
@@ -33,6 +32,34 @@ nav a{
     border-radius: 8px;
 }
 /*-----------------------------------------*/
+.search{
+    margin: 5% 0 0 20%;
+    font-size: 22px;
+}
+.search input{
+    width: 280px;
+    height: 25px;
+}
+.beerDiv{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    border: solid lightgray;
+    border-radius: 8px;
+    margin: 30px 0  0 20%;
+    padding: 15px;
+}
+.beerDiv a{ 
+    color: black;
+}
+.beerDiv img{
+    border-radius: 5px;
+    margin: 0 25px;
+}
+
+/*-------------------------------------------------------*/
+
 .be_Det_PageDiv{
     width: 450px;
     margin: 60px 100px;
@@ -48,4 +75,25 @@ nav a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/*----------------------------------------------------------*/
+
+.createBeerForm{
+    margin: 5% 0 0 20%;
+    font-size: 22px;
+}
+.createBeerForm label{
+    width: 250px;
+}
+.createBeerForm input{
+    margin: 10px 10px;
+    width: 550px;
+    height: 25px;
+}
+#submitBeer{
+    width: 550px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px 10px;
 }
